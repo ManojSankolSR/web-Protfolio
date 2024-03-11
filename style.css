@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.nav-bar-for-large-screens{
+   
+    width: 98vw;
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+#logo{
+    font-family: "Montserrat";
+   width: 60px;
+   height: 60px;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+#nav-left-items{
+    /* background-color: yellow; */
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-bar-items a{
+    font-family: "Montserrat";
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    padding: 7px 13px;
+    border-radius: 10px;
+    
+}
+.nav-bar-items a:hover, .custombutton1:hover{
+    color: cornflowerblue;
+    background-color: rgba(203, 203, 203, 0.633);
+    
+}
+.nav-bar-items .active{
+    background-color: black;
+    
+    color: white;
+    padding: 7px 13px;
+    border-radius: 10px;
+}
+.nav-bar-items .active:hover{
+    background-color: black;
+    
+    color: cornflowerblue;
+  
+}
+#nav-right-items{
+    width: 250px;
+    /* background-color: red; */
+    display:flex;
+    justify-content: space-between;
+    
+   
+
+}
+.nav-bar-items2 img{
+    height:22px;
+    
+}
+.body{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+
+}
+.body #devPic{
+   width: 35%;
+}
+.content{
+    /* background-color: red; */
+    width: 520px;
+}
+#devName{
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-weight: 700;
+}
+#devHobbies{
+    font-family: "Montserrat";
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+#devDescription{
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    line-height:25px;
+
+}
+.gap{
+    height: 15px;
+}
+.row{
+    display: flex;
+    align-items: start;
+  
+}
+.custombutton1{
+    font-family: "Montserrat";
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 13px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.custombutton2{
+    text-decoration: none;
+    font-family: "Montserrat";
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 13px;
+    border-radius: 10px;
+}
+.custombutton2:hover{
+    background-color: rgb(222, 222, 222);
+    
+
+}
+.custombutton1 img{
+    
+    height: 25px;
+    /* stroke: white;
+    color: white; */
+}
+#ktsBody{
+    
+
+
+
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+   
+    justify-content: center;
+    column-gap: 50px;
+    row-gap: 50px;
+    width: 80vw;
+    /* background-color: red; */
+}
+.ktsContainer{
+    height: 200px;
+    width: 160px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color:white;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 10px 10px;
+
+    
+
+}
+.ktsContainer img{
+   
+    display: block;
+    align-self: center;
+    width: 80%;
+    height: 60%;
+   
+}
+.techType{
+    font-family: "Montserrat";
+    color: rgb( 233, 30,99);
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.tech{
+   
+    font-family: "Montserrat";
+    font-size: 23px;
+    font-weight: 700;
+}
+.title{
+    align-self: flex-start;
+    font-family: "Montserrat";
+    font-size:40px;
+    font-weight: bold;
+    margin: 20px 30px;
+
+}
+.About-Course{
+    font-family: "Montserrat";
+    font-size:25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+.About-Course-Duration{
+    font-family: "Montserrat";
+    font-size:18px;
+    margin-bottom: 10px;
+    
+
+}
+.About-Course-Description{
+    font-family: "Montserrat";
+    font-size:18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+.About-Course-Location{
+    font-family: "Montserrat";
+    font-size:18px;
+    margin-bottom: 20px;
+  
+
+}
+.nav-bar-for-small-medium-screens{
+    display: none;
+}
+dialog[open]{
+    display: none;
+}
+
+
+@media only screen and (max-width: 550px) {
+    .body #devPic{
+        width: 80%;
+        max-width: 300px;
+       
+     }
+     .title{
+        font-size: 25px;
+    }
+     .body{
+        /* height: 90vh; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center;
+        vertical-align: middle; */
+    
+    }
+    .nav-bar-for-large-screens{
+        display: none;
+    }
+    .nav-bar-for-small-medium-screens{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .content{
+        /* background-color: red; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #devName{
+        font-family: "Montserrat";
+        font-size: 23px;
+        font-weight: 700;
+    }
+    #devHobbies{
+        font-family: "Montserrat";
+        font-size: 18px;
+        font-weight: 500;
+        
+    }
+    #devDescription{
+        font-family: "Montserrat";
+        font-size: 13px;
+        font-weight: 500;
+        line-height:20px;
+        text-align: center;
+    
+    }
+    #logo{
+        font-family: "Montserrat";
+       width: 40px;
+       height: 40px;
+        font-size: 20px;
+        color: white;
+        background-color: black;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+    }
+    dialog[open] {
+    
+        display: flex;
+        width: 250px;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        border-radius: 20px;
+        padding: 20px;
+        backdrop-filter: blur(40px);
+        background-color: rgba(0, 0, 0, 0.226);
+        border: 2px solid black;
+    
+    
+    }
+    dialog[open]::backdrop{
+        backdrop-filter: blur(5px);
+
+    }
+    #nav-bar-header-for-Dialog{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    #nav-bar-title-for-Dialog{
+        font-family: "Montserrat";
+        font-size: 15px;
+        font-weight: bold;
+        /* color: white; */
+    
+    }
+    .custombutton1{
+        font-family: "Montserrat";
+        font-size: 13px;
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        padding: 8px 10px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        
+    }
+    .custombutton1 img{
+    
+        height: 18px;
+        /* stroke: white;
+        color: white; */
+    }
+    .custombutton2{
+        text-decoration: none;
+        font-family: "Montserrat";
+        color: black;
+        font-weight: 500;
+        font-size: 13px;
+        padding: 10px 13px;
+        border-radius: 10px;
+    }
+
+
+}
+
+
+
+
+@media only screen and (min-width: 551px) and (max-width: 950px){
+    .body #devPic{
+        width: 0;
+     }
+    
+    .nav-bar-for-large-screens{
+        display: none;
+    }
+    
+    .nav-bar-for-small-medium-screens{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .content{
+        /* background-color: red; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #devName{
+        font-family: "Montserrat";
+        font-size: 40px;
+        font-weight: 700;
+    }
+    #devHobbies{
+        font-family: "Montserrat";
+        font-size: 25px;
+        font-weight: 500;
+        
+    }
+    #devDescription{
+        font-family: "Montserrat";
+        font-size: 18px;
+        font-weight: 500;
+        line-height:25px;
+        text-align: center;
+    
+    }
+    #logo{
+        font-family: "Montserrat";
+       width: 40px;
+       height: 40px;
+        font-size: 20px;
+        color: white;
+        background-color: black;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+    }
+    dialog[open] {
+    
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        border-radius: 20px;
+        padding: 20px;
+        backdrop-filter: blur(40px);
+        background-color: rgba(0, 0, 0, 0.226);
+        border: 2px solid black;
+    
+    
+    }
+    dialog[open]::backdrop{
+        backdrop-filter: blur(5px);
+
+    }
+    #nav-bar-header-for-Dialog{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    #nav-bar-title-for-Dialog{
+        font-family: "Montserrat";
+        font-size: 15px;
+        font-weight: bold;
+        /* color: white; */
+    
+    }
+   
+    
+}
