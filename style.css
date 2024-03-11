@@ -338,11 +338,11 @@ dialog[open]{
     }
     .custombutton1{
         font-family: "Montserrat";
-        font-size: 13px;
+        font-size: 15px;
         text-decoration: none;
         color: white;
         background-color: black;
-        padding: 8px 10px;
+        padding: 10px 12px;
         border-radius: 10px;
         display: flex;
         align-items: center;
@@ -350,7 +350,7 @@ dialog[open]{
     }
     .custombutton1 img{
     
-        height: 18px;
+        height: 19px;
         /* stroke: white;
         color: white; */
     }
@@ -359,8 +359,8 @@ dialog[open]{
         font-family: "Montserrat";
         color: black;
         font-weight: 500;
-        font-size: 13px;
-        padding: 10px 13px;
+        font-size: 15px;
+        padding: 10px 12px;
         border-radius: 10px;
     }
 
