@@ -253,6 +253,7 @@ dialog[open]{
         /* height: 90vh; */
         display: flex;
         flex-direction: column;
+        justify-content: space-evenly;
         /* justify-content: center;
         align-items: center;
         vertical-align: middle; */
@@ -312,11 +313,11 @@ dialog[open]{
         flex-direction: column;
         row-gap: 20px;
         align-items: center;
-        border-radius: 20px;
+        border-radius: 10px;
         padding: 20px;
         backdrop-filter: blur(40px);
         background-color: rgba(0, 0, 0, 0.226);
-        border: 2px solid black;
+        border: 0px ;
     
     
     }
@@ -362,6 +363,19 @@ dialog[open]{
         font-size: 15px;
         padding: 10px 12px;
         border-radius: 10px;
+    }
+    #nav-right-items{
+        width: 220px;
+        /* background-color: red; */
+        display:flex;
+        justify-content: space-between;
+        
+       
+    
+    }
+    .nav-bar-items2 img{
+        height:18px;
+        
     }
 
 
@@ -430,11 +444,11 @@ dialog[open]{
         flex-direction: column;
         row-gap: 20px;
         align-items: center;
-        border-radius: 20px;
+        border-radius: 10px;
         padding: 20px;
         backdrop-filter: blur(40px);
         background-color: rgba(0, 0, 0, 0.226);
-        border: 2px solid black;
+        border: 0px;
     
     
     }
