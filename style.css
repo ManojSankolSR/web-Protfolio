@@ -40,9 +40,14 @@
     border-radius: 10px;
     
 }
-.nav-bar-items a:hover, .custombutton1:hover{
+.nav-bar-items a:hover{
     color: cornflowerblue;
     background-color: rgba(203, 203, 203, 0.633);
+    
+}
+.custombutton1:hover{
+    color: cornflowerblue;
+    
     
 }
 .nav-bar-items .active{
@@ -145,6 +150,7 @@
     border-radius: 10px;
 }
 .custombutton2:hover{
+    color: cornflowerblue;
     background-color: rgb(222, 222, 222);
     
 
@@ -278,7 +284,7 @@ dialog[open]{
 
 
 .ProjectsContainer{
-    height: 200px;
+    height: 250px;
     width: 40%;
     max-width: 570px;
     border: 2px solid black;
@@ -313,6 +319,7 @@ dialog[open]{
 .custombuttonSmall{
     font-family: "Montserrat";
     font-size: 13px;
+    font-weight: 500;
     text-decoration: none;
     color: white;
     background-color: black;
@@ -320,6 +327,11 @@ dialog[open]{
     border-radius: 10px;
     display: flex;
     align-items: center;
+
+}
+.custombuttonSmall:hover{
+    color: cornflowerblue;
+    
 
 }
 
@@ -351,6 +363,7 @@ dialog[open]{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin: 10px 10px 0px 0px;
     }
     .content{
         /* background-color: red; */
@@ -382,7 +395,7 @@ dialog[open]{
         font-family: "Montserrat";
        width: 40px;
        height: 40px;
-        font-size: 20px;
+        font-size: 18px;
         color: white;
         background-color: black;
         border-radius: 50px;
@@ -394,30 +407,42 @@ dialog[open]{
     dialog[open] {
     
         display: flex;
-        width: 250px;
+        width: 80%;
+        max-width: 300px;
         flex-direction: column;
         row-gap: 20px;
         align-items: center;
         border-radius: 10px;
         padding: 20px;
         backdrop-filter: blur(40px);
-        background-color: rgba(0, 0, 0, 0.226);
+        background-color: rgba(0, 0, 0, 0.344);
         border: 0px ;
+        animation: myFadeIn 1s ease normal;
     
     
     }
+    @keyframes myFadeIn{
+        0% { transform:scale(100%); }
+        10% { transform:scale(70%); }
+        20% { transform:scale(100%); }
+        30% { transform:scale(95%); }
+        40% { transform:scale(100%); }
+    
+      }
     dialog[open]::backdrop{
         backdrop-filter: blur(5px);
 
     }
+
     #nav-bar-header-for-Dialog{
         width: 100%;
         display: flex;
+        align-items: center;
         justify-content: space-between;
     }
     #nav-bar-title-for-Dialog{
         font-family: "Montserrat";
-        font-size: 15px;
+        font-size: 17px;
         font-weight: bold;
         /* color: white; */
     
@@ -428,11 +453,11 @@ dialog[open]{
 
     .custombutton1{
         font-family: "Montserrat";
-        font-size: 15px;
+        font-size: 16px;
         text-decoration: none;
         color: white;
         background-color: black;
-        padding: 10px 12px;
+        padding: 12px 12px;
         border-radius: 10px;
         display: flex;
         align-items: center;
@@ -449,8 +474,8 @@ dialog[open]{
         font-family: "Montserrat";
         color: black;
         font-weight: 500;
-        font-size: 15px;
-        padding: 10px 12px;
+        font-size: 16px;
+        padding: 12px 12px;
         border-radius: 10px;
     }
     #nav-right-items{
@@ -463,14 +488,14 @@ dialog[open]{
     
     }
     .nav-bar-items2 img{
-        height:18px;
+        height:20px;
         
         
     }
     .nav-bar-items a{
         font-family: "Montserrat";
         text-decoration: none;
-        font-size: 15px;
+        font-size: 16px;
         color: black;
         font-weight: 500;
         padding: 7px 13px;
@@ -489,7 +514,38 @@ dialog[open]{
     .ProjectsContainer .nav-bar-items2 img{
         height: 25px;
         width: 25px;
-     }
+    }
+    .row{
+        
+        gap: 0px;
+      
+    }
+    #Ham{
+        font-size: 30px;
+        padding: 5px;
+        
+    }
+    #Ham:hover{
+        background-color: rgb(222, 222, 222);
+        border-radius: 50%;
+        cursor: pointer;
+
+        
+    }
+    #close{
+        
+        padding: 5px;
+        
+    }
+    #close:hover{
+        background-color: rgb(222, 222, 222);
+        border-radius: 50%;
+        cursor: pointer;
+
+        
+    }
+    
+
 
 
 }
@@ -560,7 +616,8 @@ dialog[open]{
         border-radius: 10px;
         padding: 20px;
         backdrop-filter: blur(40px);
-        background-color: rgba(0, 0, 0, 0.226);
+        animation: myFadeIn 1s ease normal;
+        background-color: rgba(0, 0, 0, 0.344);
         border: 0px;
     
     
@@ -569,6 +626,14 @@ dialog[open]{
         backdrop-filter: blur(5px);
 
     }
+    @keyframes myFadeIn{
+        0% { transform:scale(100%); }
+        10% { transform:scale(80%); }
+        20% { transform:scale(100%); }
+        30% { transform:scale(95%); }
+        40% { transform:scale(100%); }
+    
+      }
     #nav-bar-header-for-Dialog{
         width: 100%;
         display: flex;
@@ -576,7 +641,7 @@ dialog[open]{
     }
     #nav-bar-title-for-Dialog{
         font-family: "Montserrat";
-        font-size: 15px;
+        font-size: 17px;
         font-weight: bold;
         /* color: white; */
     
@@ -591,6 +656,29 @@ dialog[open]{
     .ProjectsContainer img{
         width: 100%;
         height: 30%;
+    }
+    #Ham{
+        font-size: 35px;
+        padding: 5px;
+        
+    }
+    #Ham:hover{
+        background-color: rgb(222, 222, 222);
+        border-radius: 50%;
+
+        
+    }
+    #close{
+        
+        padding: 5px;
+        
+    }
+    #close:hover{
+        background-color: rgb(222, 222, 222);
+        border-radius: 50%;
+        cursor: pointer;
+
+        
     }
    
     
