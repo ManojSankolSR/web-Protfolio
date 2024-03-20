@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link id="styleId" rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Document</title>
 </head>
@@ -99,19 +99,19 @@
             <a href="" class="nav-bar-items2">
                 <img src="svgs/instagram.svg" alt="">
             </a>
-            <a href="" class="nav-bar-items2">
+            <a href="" class="nav-bar-items2" id="Themetoggle">
                 <img src="svgs/sun.svg" alt="">
             </a>
         </div>
         
     </div>
     <br>
-    <div style="background-color: rgb(246, 214, 214); border-radius: 30px; display: flex; align-items: center; flex-direction: column; padding: 20px;">
+    <div id="ProjectsMaindiv">
        
         <div class="title">PROJECTS</div>
         <br>
         <br>
-        <div style="display: flex; flex-wrap: wrap; justify-content: space-evenly; width: 100%; gap: 40px; max-width: 1330px;">
+        <div  style="display: flex; flex-wrap: wrap; justify-content: space-evenly; width: 100%; gap: 40px; max-width: 1330px;">
             <div class="ProjectsContainer">
                 <img src="./svgs/logo-github.svg" alt="">
                <div class="ProjectContent">
@@ -286,17 +286,8 @@
     
         <br>
     </div>
-    <script>
-        const dialog1=document.getElementById("MenuDialog");
-        document.getElementById("Ham").addEventListener("click",()=>{
-            dialog1.showModal();
-
-        });
-        document.getElementById("close").addEventListener("click",()=>{
-            dialog1.close();
-
-        });
-    </script>
+    <script src="./index.js"></script>
+  
     
     
 </body>

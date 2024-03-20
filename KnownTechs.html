@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link id="styleId" rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Document</title>
 </head>
@@ -98,14 +98,14 @@
             <a href="" class="nav-bar-items2">
                 <img src="svgs/instagram.svg" alt="">
             </a>
-            <a href="" class="nav-bar-items2">
+            <a href="" class="nav-bar-items2" id="Themetoggle">
                 <img src="svgs/sun.svg" alt="">
             </a>
         </div>
         
     </div>
     <br>
-    <div style="background-color: rgb(246, 214, 214); border-radius: 30px; display: flex; align-items: center; flex-direction: column;">
+    <div id="ktsMainDiv">
         <br>
         <div class="title">KNOWN TECHNOLOGIES</div>
        
@@ -273,17 +273,7 @@
         </div>
         <br>
     </div>
-    <script>
-        const dialog1=document.getElementById("MenuDialog");
-        document.getElementById("Ham").addEventListener("click",()=>{
-            dialog1.showModal();
-
-        });
-        document.getElementById("close").addEventListener("click",()=>{
-            dialog1.close();
-
-        });
-    </script>
+    <script src="./index.js"></script>
     
     
 </body>

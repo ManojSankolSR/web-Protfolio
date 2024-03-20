@@ -1,17 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
 #ktsMainDiv{
-    background-color: rgb(246, 214, 214); border-radius: 30px; display: flex; align-items: center; flex-direction: column;
+    background-color: rgb(53, 47, 68); border-radius: 30px; display: flex; align-items: center; flex-direction: column;
 
 }
 #ProjectsMaindiv{
-    background-color: rgb(246, 214, 214); border-radius: 30px; display: flex; align-items: center; flex-direction: column; padding: 20px;
+    background-color: rgb(53, 47, 68); border-radius: 30px; display: flex; align-items: center; flex-direction: column; padding: 20px;
 }
 #AboutMainDiv{
-    background-color: rgb(246, 214, 214); border-radius: 30px; display: flex; align-items: center; flex-direction: column;
+    background-color: rgb(53, 47, 68); border-radius: 30px; display: flex; align-items: center; flex-direction: column;
 
 }
+
+
 
 
 
@@ -36,6 +44,7 @@
     align-items: center;
     justify-content: center;
     font-weight: 700;
+    border: 1px solid white;
 }
 #nav-left-items{
     /* background-color: yellow; */
@@ -49,7 +58,7 @@
     font-family: "Montserrat";
     text-decoration: none;
     font-size: 18px;
-    color: black;
+    color: white;
     font-weight: 500;
     padding: 7px 13px;
     border-radius: 10px;
@@ -57,7 +66,7 @@
 }
 .nav-bar-items a:hover{
     color: cornflowerblue;
-    background-color: rgba(203, 203, 203, 0.633);
+    background-color: rgba(203, 203, 203, 0.175);
     
 }
 .custombutton1:hover{
@@ -66,14 +75,14 @@
     
 }
 .nav-bar-items .active{
-    background-color: black;
+    background-color:white;
     
-    color: white;
+    color: black;
     padding: 7px 13px;
     border-radius: 10px;
 }
 .nav-bar-items .active:hover{
-    background-color: black;
+    background-color: white;
     
     color: cornflowerblue;
   
@@ -147,8 +156,8 @@
     font-family: "Montserrat";
     font-size: 18px;
     text-decoration: none;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     padding: 10px 13px;
     border-radius: 10px;
     display: flex;
@@ -159,21 +168,22 @@
 .custombutton2{
     text-decoration: none;
     font-family: "Montserrat";
-    color: black;
+    color: white;
     font-weight: 500;
     font-size: 18px;
     padding: 10px 13px;
     border-radius: 10px;
 }
 .custombutton2:hover{
-    color: cornflowerblue;
-    background-color: rgb(222, 222, 222);
+    /* color: cornflowerblue; */
+    background-color: rgba(222, 222, 222, 0.323);
     
 
 }
 .custombutton1 img{
     
     height: 25px;
+    /* background-color: yellow; */
     /* stroke: white;
     color: white; */
 }
@@ -195,9 +205,9 @@
 .ktsContainer{
     height: 200px;
     width: 160px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 30px;
-    background-color:white;
+    background-color: rgb(34, 34, 34);
     position: relative;
     padding: 20px;
     display: flex;
@@ -303,9 +313,9 @@ dialog[open]{
     height: 250px;
     width: 40%;
     max-width: 570px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 30px;
-    background-color:white;
+    background-color: rgb(34, 34, 34);
     position: relative;
     padding: 20px;
     display: flex;
