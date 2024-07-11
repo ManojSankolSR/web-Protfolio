@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+.hidden{
+    display: none!important;
 
+
+}
 
 body{
     background-color: rgb(34, 34, 34);
@@ -17,6 +21,12 @@ body{
 #AboutMainDiv{
     background-color: rgb(53, 47, 68); border-radius: 30px; display: flex; align-items: center; flex-direction: column;
 
+}
+
+.nav-bar-items2 svg path:nth-child(4){
+    fill: white;
+    
+    
 }
 
 
@@ -96,6 +106,7 @@ body{
    
 
 }
+
 .nav-bar-items2{
     padding: 8px 10px;
     border-radius: 50%;
@@ -217,6 +228,12 @@ body{
 
     
 
+}
+.ktsContainer:hover{
+    transition-duration: 200ms;
+    transform: scale(105%);
+    box-shadow: 12px 12px;
+    
 }
 .ktsContainer img{
    
@@ -470,7 +487,7 @@ dialog[open]{
         font-family: "Montserrat";
         font-size: 17px;
         font-weight: bold;
-        /* color: white; */
+        color: white;
     
     }
     
@@ -481,12 +498,13 @@ dialog[open]{
         font-family: "Montserrat";
         font-size: 16px;
         text-decoration: none;
-        color: white;
-        background-color: black;
+        color: black;
+        background-color: white;
         padding: 12px 12px;
         border-radius: 10px;
         display: flex;
         align-items: center;
+        /* font-weight: 500; */
         
         
     }
@@ -499,7 +517,7 @@ dialog[open]{
     .custombutton2{
         text-decoration: none;
         font-family: "Montserrat";
-        color: black;
+        color: white;
         font-weight: 500;
         font-size: 16px;
         padding: 12px 12px;
@@ -523,7 +541,7 @@ dialog[open]{
         font-family: "Montserrat";
         text-decoration: none;
         font-size: 16px;
-        color: black;
+        color: white;
         font-weight: 500;
         padding: 7px 13px;
         border-radius: 10px;
@@ -553,7 +571,7 @@ dialog[open]{
         
     }
     #Ham:hover{
-        background-color: rgb(222, 222, 222);
+        background-color: rgba(222, 222, 222, 0.305);
         border-radius: 50%;
         cursor: pointer;
 
@@ -562,10 +580,11 @@ dialog[open]{
     #close{
         
         padding: 5px;
+        color: white;
         
     }
     #close:hover{
-        background-color: rgb(222, 222, 222);
+        background-color: rgba(222, 222, 222, 0.292);
         border-radius: 50%;
         cursor: pointer;
 
@@ -664,13 +683,14 @@ dialog[open]{
     #nav-bar-header-for-Dialog{
         width: 100%;
         display: flex;
+        align-items: center;
         justify-content: space-between;
     }
     #nav-bar-title-for-Dialog{
         font-family: "Montserrat";
         font-size: 17px;
         font-weight: bold;
-        /* color: white; */
+        color: white;
     
     }
     .ProjectsContainer{
@@ -690,7 +710,7 @@ dialog[open]{
         
     }
     #Ham:hover{
-        background-color: rgb(222, 222, 222);
+        background-color: rgba(222, 222, 222, 0.332);
         border-radius: 50%;
 
         
@@ -698,10 +718,11 @@ dialog[open]{
     #close{
         
         padding: 5px;
+        color: white;
         
     }
     #close:hover{
-        background-color: rgb(222, 222, 222);
+        background-color: rgba(222, 222, 222, 0.201);
         border-radius: 50%;
         cursor: pointer;
 

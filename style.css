@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+.hidden{
+    display: none!important;
+
+
+}
+
+
+
+
+
+
 #ktsMainDiv{
     background-color: rgb(246, 214, 214); border-radius: 30px; display: flex; align-items: center; flex-direction: column;
 
@@ -91,6 +102,7 @@
     padding: 8px 10px;
     border-radius: 50%;
 }
+
 .nav-bar-items2 img{
     height:22px;
     
@@ -204,9 +216,16 @@
     flex-direction: column;
     justify-content: space-around;
     box-shadow: 10px 10px;
+    
 
     
 
+}
+.ktsContainer:hover{
+    transition-duration: 200ms;
+    transform: scale(105%);
+    box-shadow: 12px 12px;
+    
 }
 .ktsContainer img{
    
@@ -509,6 +528,12 @@ dialog[open]{
         
         
     }
+    
+
+    
+
+
+    
     .nav-bar-items a{
         font-family: "Montserrat";
         text-decoration: none;
